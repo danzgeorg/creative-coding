@@ -40,8 +40,8 @@ void setup() {
   ellipse(300, 100, 50, 30);
   
   // Bezier curve for a wavy ground (new)
-  stroke(34, 139, 34); // Green stroke for wavy grass
+  stroke(34, 139, 34); // Green
   strokeWeight(4);
   noFill();
-  bezier(50, 310, 150, 290, 250, 330, 350, 310); // Wavy ground shape for texture
+  bezier(50, 310, 150, 290, 250, 330, 350, 310); // Wavy ground
 }
